@@ -1,0 +1,121 @@
+@media only screen and (max-width: 768px){
+
+/*======================
+	Upper Nav Bar
+======================*/
+
+	.upper-nav ul {
+	    list-style: none;
+	    height: 5rem;
+	    padding-top: 1rem;
+	    padding-left: .3rem;
+	    padding-right: .3rem;
+	}
+
+	.upper-nav ul li a {
+	    font-size: 1rem;
+	}
+
+	.form-control {
+	    width: 100%;
+	    margin-top: 1.2rem;
+	    margin-bottom: 1.5rem;
+	}
+
+
+/*======================
+	Navigation Bar
+======================*/
+
+	.collapse {
+	    border-bottom: none;
+	    border-top: none;
+	}
+
+	.navbar-nav li a {
+	    border-right: none;
+	    font-size: 1.3rem;
+		padding: 10px;
+	}
+
+	.navbar-toggle .icon-bar {
+	    background: #2d2928;
+	}
+
+	.navbar-nav>li {
+	    width: 100%;
+	    padding: .3rem;
+	    border-right: none;
+	}
+
+	nav .collapse .container{
+		padding-right: 0px;
+    	padding-left: 0px;
+	}
+
+	.navbar-collapse {
+    	padding-right: 0px; 
+    	padding-left: 0px; 
+	}
+
+	.navbar-nav {
+	    margin-left: 0px;
+	}
+
+/*======================
+		Header
+======================*/
+
+	header h1 {
+	    color: #666;
+	    font-size: 3rem;
+	}
+
+	header .col-md-5 {
+	    padding-left: 1.5rem;
+	}
+
+	header {
+	    margin-bottom: 2rem;
+	    margin-top: 3rem;
+	}
+
+/*======================
+		grid-page
+======================*/
+
+	.grid-page .col-sm-2 {
+    	width: auto;
+	}
+
+/*======================
+		section
+======================*/
+
+	section .post {
+	    margin-top: 0;
+	}
+
+	section {
+	    margin-bottom: 3rem;
+	}
+
+/*======================
+		footer-page
+======================*/
+
+	footer h6 {
+	    float: none;
+	}
+
+	footer {
+	    height: 12rem;
+	}
+
+}
+
+@media only screen and (min-width: 768px){
+	.hr-mobile{
+		display: none;
+	}
+}
